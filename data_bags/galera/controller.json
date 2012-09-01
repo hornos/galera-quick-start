@@ -1,0 +1,16 @@
+{
+  "id": "controller",
+  "controller_host_ipaddress": "10.10.10.11",
+  "mode": "controller",
+  "type": "galera",
+  "cmon_tarball_x86_64": "cmon-1.1.30-64bit-glibc23-mc70.tar.gz",
+  "cmon_tarball_i686": "cmon-1.1.30-32bit-glibc23-mc70.tar.gz",
+  "cmon_tarball_i386": "cmon-1.1.30-32bit-glibc23-mc70.tar.gz",
+  "cmon_source": "http://www.severalnines.com/downloads/cmon",
+  "cc_pub_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZCSTGPLWsUFcy+Kn4NTCzYJK3nc1J2s+JWoqk6pLrRnzi7UsV9dujulXX95A/bJ0Sde/18wgb0xYc1Y8fAJEZ3fwdqS8CxtfyeNM/TneSoxZ26B/82vfvfSZfRXPnXgWryMbXTRDOPkjn4BKktaLBkH+yAleDLVch1lpoIlhKnxymQTVRGmvGy3kKPt+07zHbKNtU0u+I7JyRFrSKk4+32PTE3x3/oepBwJWrNie/Y6sMFJodhGyIvvBDbZieg4PVcpD3Q7ibhFIEuOP5mgp7El9fr9V9orT67vkQpUh8wyKwCKqNr528c+g10PjHIwPv7mTW/RLgc9O4m1xT/ndx root@mysql1",
+  "agent_hosts": [
+     "10.10.10.11",
+     "10.10.10.12",
+     "10.10.10.13"
+    ]
+}

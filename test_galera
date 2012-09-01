@@ -1,0 +1,3 @@
+#!/bin/bash
+
+mysql -uroot -ppassword -e "show status like '%wsrep%'"
